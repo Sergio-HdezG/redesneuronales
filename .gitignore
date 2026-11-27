@@ -60,3 +60,6 @@ runs/
 .agents/
 .claude/
 outputs/train_*.log
+
+# Excepción: pesos de los clasificadores
+!outputs/classifiers/**/best.pt
